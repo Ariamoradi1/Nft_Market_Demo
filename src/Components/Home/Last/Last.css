@@ -1,0 +1,39 @@
+.best-pro-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: transform 2000ms ease-in-out;
+    transform-origin: center center;
+}
+
+.best-pro-img:hover{
+    transform: scale(1.1);
+}
+
+.best-pro{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 350px;
+    margin-top: 60px;
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.best-pro:hover{
+    box-shadow: 0px 25px 25px 0px rgb(0 0 0 / 10%);
+}
+
+.last-week{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.display{
+    display: flex;
+    justify-content: space-around;
+}

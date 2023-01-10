@@ -1,0 +1,24 @@
+.guarante-contaner{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    
+}
+
+.guarante-content1{
+    display: flex;
+}
+
+
+
+.guarante-img{
+    width: 60px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.guarant-img{
+    display: flex;
+    justify-content: center;
+}

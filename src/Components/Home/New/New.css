@@ -1,0 +1,44 @@
+.new-container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.new{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap
+}
+
+.new-product{
+    height: 380px;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.new-product:hover{
+    box-shadow: 0px 25px 25px 0px rgb(0 0 0 / 10%);
+}
+
+.new-img{
+    width: 280px;
+    height: 200px;
+    border-radius: 7px;
+    transition: transform 2000ms ease-in-out;
+    transform-origin: center center;
+}
+
+.new-img:hover{
+    transform: scale(1.1);
+}
+
+.new-products{
+    text-align: center;
+}
+
+hr{
+    color: #f0f0f0;
+}

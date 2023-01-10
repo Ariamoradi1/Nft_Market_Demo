@@ -1,0 +1,91 @@
+.container{
+    width: 100%;
+    height: 500px;
+    background: rgb(160,131,205);
+background: linear-gradient(3deg, rgba(160,131,205,1) 0%, rgba(112,9,121,1) 0%, rgba(106,120,148,1) 74%);
+color: #fff;
+text-align: center;
+border-radius: 10px;
+}
+
+.products{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    cursor: pointer;
+    
+
+}
+
+.product1{
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 7px;
+    margin-top: 35px;
+}
+
+.product1:hover{
+    box-shadow: 0px 25px 25px 0px rgba(236, 232, 232, 0.1);
+}
+
+.product-button{
+    border: none;
+    padding: 8px;
+    color: #fff;
+    background-color: blue;
+    border-radius: 8px;
+    font-family: estedad;
+    cursor: pointer;
+}
+
+.img-header{
+    width: 300px;
+    height: 200px;
+    border-radius: 5px 5px 0 0;
+    transition: transform 2000ms ease-in-out;
+    transform-origin: center center;
+}
+.img-header{
+    animation: nft 3s;
+   
+}
+
+.bbb{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btt{
+    border: none;
+    padding: 8px;
+    color: black;
+    background-color: #fff;
+    border-radius: 8px;
+    font-family: estedad;
+    cursor: pointer;
+    width: 110px;
+    height: 50px;
+}
+
+.btt:hover{
+    background-color: #ff497c;
+    color: #fff;
+}
+
+.img-header:hover{
+    transform: scale(1.1);
+}
+@keyframes nft {
+    0% {
+     transform: scale(0.1);
+    }
+    60% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+    
+ }

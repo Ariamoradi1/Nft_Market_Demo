@@ -1,0 +1,9 @@
+.log-container{
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 50px !important;
+}
+
+.log-para{
+    margin-left: 50px;
+}
