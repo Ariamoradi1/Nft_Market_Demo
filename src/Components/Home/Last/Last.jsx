@@ -26,15 +26,37 @@ const Last = () => {
         userDatas.setCounter(prev => {
            return prev + 1
         })
+        let isInUserCart = userDatas.UserBasket.some(bagProduct => bagProduct.title === newb.name)
+        console.log(isInUserCart)
+        if(!isInUserCart) {
         let userArray = {
             id: userDatas.UserBasket.length + 1,
             title: newb.name,
             img: newb.img,
-            much: newb.price
+            much: newb.price,
+            count: 1
         }
         userDatas.setUserBasket(prev => {
             return [...prev, userArray]
         })
+    } else {
+        let userCart = [...userDatas.UserBasket]
+        // way 1
+        userCart.some(bagProduct => {
+            if (bagProduct.title === newb.name) {
+                bagProduct.count += 1
+                return true
+            }
+        })
+        userDatas.setUserBasket(userCart)
+        //way 2
+       // let newUserCart = userCart.map(bagProduct => {
+            //if (bagProduct.name === newb.title) {
+             // bagProduct.count +=1
+           // }
+       // })
+        //userDatas.setUserBasket(newUserCart)
+    }
         alert('محصول با موفقیت به سبد خرید اضافه شد')
     }
     return (

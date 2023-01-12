@@ -15,7 +15,11 @@ const Products = () => {
        userDatas.setCounter(prev => {
         return prev - 1
        })
+       
     }
+    if (userDatas.UserBasket === '') {
+        userDatas.setCounter(prev => prev == 0)
+       }
     return (
         <>
         <Navbar/>
@@ -30,6 +34,7 @@ const Products = () => {
                      <img src={item.img} alt="zomm" className="user-img" />
                      <p>{item.title}</p>
                      <p>{item.much} تومان</p>
+                     <p>تعداد:{item.count}</p>
                      <div className="buttons">
                      <button onClick={() => removeHandler (item.id)} className="product-delet">حذف محصول</button>
                      <button className="product-button">خرید محصول</button>
