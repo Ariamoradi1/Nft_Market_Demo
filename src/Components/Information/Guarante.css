@@ -22,3 +22,20 @@
     display: flex;
     justify-content: center;
 }
+
+@media (max-width:600px) {
+    .guarante-content1{
+        width: 40px;
+        font-size: 10px;
+    }
+    .guarante-img{
+        width: 30px;
+        height: 25px;
+    }
+    .about-guarante{
+        position: relative;
+        left: 20px;
+    }
+    
+    
+}

@@ -3,8 +3,8 @@ body{
 }
 
 Table {
-    width: 450px !important;
-    border-radius: 6px !important;
+    width: 450px ;
+    border-radius: 6px ;
     border-collapse: collapse;
     cursor: pointer;
 }
@@ -19,15 +19,15 @@ Table tr:nth-child(even){background-color: #f2f2f2;}
 Table tr:hover {background-color: #ddd;}
 
 .information-picture{
-    height: 500px !important;
-    border-radius: 8px !important;
+    height: 500px ;
+    border-radius: 8px;
     margin-top: 150px;
 }
 
 .information-container {
-    display: flex !important;
-    justify-content: space-around !important;
-    margin-top: 50px !important;
+    display: flex ;
+    justify-content: space-around;
+    margin-top: 50px;
 }
 
 .information-button{
@@ -56,4 +56,18 @@ Table tr:hover {background-color: #ddd;}
     cursor: pointer;
     width: 100px;
     height: 50px;
+}
+
+@media (max-width:600px) {
+    
+    .information-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .information-picture{
+        height: 200px;
+    }
+    Table{
+        width: 350px;
+    }
 }

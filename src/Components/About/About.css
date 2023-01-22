@@ -46,3 +46,18 @@ border-radius: 15px;
 .github-icon:hover{
     color: purple;
 }
+
+@media (max-width:600px) {
+.about-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.aria-img{
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+    
+    
+}

@@ -36,9 +36,7 @@ const Navbar = () => {
           <Link to='/Products'> <li className="li-basket"><SlBasket className="basket"></SlBasket></li></Link>
          <Link to='/Profile'>  <li><img src="last1.jpg" alt="prof" className="prof-img"/></li> </Link>
         </ul>
-        <div className="counter">
-                {userDatas.Counter}
-            </div>
+        
         </nav>
         </>
     )

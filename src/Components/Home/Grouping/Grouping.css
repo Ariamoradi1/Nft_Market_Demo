@@ -26,3 +26,20 @@
     height: 100px;
     border-radius: 8px;
 }
+
+@media (max-width:600px) {
+    .Grouping-Container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: fit-content;
+        
+    }
+    
+    .groups{
+        display: flex;
+        flex-direction: column;
+        margin-right: 80px;
+    }
+    
+}

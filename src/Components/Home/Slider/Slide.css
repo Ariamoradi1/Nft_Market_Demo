@@ -89,3 +89,17 @@ border-radius: 10px;
     }
     
  }
+
+ @media (max-width:600px) {
+    .container{
+        height: 1350px;
+        justify-content: center;
+    }
+   
+    .products{
+        display: flex;
+        flex-direction: column;
+        margin-right: 30px;
+    }
+    
+}

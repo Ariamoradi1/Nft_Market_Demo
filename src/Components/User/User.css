@@ -3,3 +3,13 @@
     height: 400px;
     border-radius: 50%;
 }
+
+
+@media (max-width:600px) {
+    .javad-img{
+        width: 200px;
+        height: 200px;
+    }
+    
+    
+}

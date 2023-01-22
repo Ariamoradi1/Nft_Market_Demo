@@ -53,7 +53,7 @@ const Bests = (props) => {
         <>
         <hr></hr>
         <div className="bests-container">
-            <h1>پرفروش ترین ها</h1>
+            <h1 className="h1-best">پرفروش ترین ها</h1>
             <div className="bests">
                 
         

@@ -35,3 +35,18 @@
     transform: scale(1.1);
 }
 
+@media (max-width:600px) {
+    .bestes-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .bests{
+        display: flex;
+        flex-direction: column;
+    }
+    .h1-best{
+        text-align: center;
+    }
+    
+}
+
