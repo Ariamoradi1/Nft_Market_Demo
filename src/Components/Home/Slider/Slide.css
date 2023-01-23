@@ -99,7 +99,7 @@ border-radius: 10px;
     .products{
         display: flex;
         flex-direction: column;
-        margin-right: 30px;
+        margin-right: 23px;
     }
     
 }
