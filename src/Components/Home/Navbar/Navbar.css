@@ -77,5 +77,8 @@ li{
     nav{
         font-size: 14px;
     }
-    
+    .navs{
+        position: relative;
+        left: 60px;
+    }
 }

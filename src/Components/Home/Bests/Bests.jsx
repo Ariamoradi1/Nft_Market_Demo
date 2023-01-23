@@ -7,7 +7,7 @@ import './Bestes.css'
 const Bests = (props) => {
     const [Best, setBest] = useState([
         {id:4, img:"zombe.png", name:"zombie", price:20000000},
-        {id:5, img:"vagheat.png", name:"وقعیت مجازی", price:1000000},
+        {id:5, img:"vagheat.png", name:"واقعیت مجازی", price:1000000},
         {id:6, img:"khok.png", name:"خوک", price:50000000},
         {id:7, img:"carton.png", name:"کارتون", price:30000000},
     ])

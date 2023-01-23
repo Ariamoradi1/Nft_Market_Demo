@@ -10,9 +10,9 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
     const userDatas = useContext(UserData)
     return (
-        
         <>
         <nav>
+            <div className="navs">
         <ul className="ul-nav">
         <Link to='/'>
             <li style={{color:'black'}}>
@@ -36,7 +36,7 @@ const Navbar = () => {
           <Link to='/Products'> <li className="li-basket"><SlBasket className="basket"></SlBasket></li></Link>
          <Link to='/Profile'>  <li><img src="last1.jpg" alt="prof" className="prof-img"/></li> </Link>
         </ul>
-        
+        </div>
         </nav>
         </>
     )
